@@ -92,7 +92,9 @@
   /* ---------- lite video embeds ---------- */
   function videoCard(video) {
     const frame = el('button', { class: 'video-frame', type: 'button', 'aria-label': 'Play video: ' + video.title },
-      el('img', { src: 'https://i.ytimg.com/vi/' + video.id + '/hqdefault.jpg', alt: '', loading: 'lazy' }),
+      // No `src` yet: the thumbnail address waits in data-src until the drawer is opened (see renderVideos),
+      // so the page contacts no video host until the reader asks to see the videos.
+      el('img', { alt: '', referrerpolicy: 'no-referrer', data: { src: 'https://i.ytimg.com/vi/' + video.id + '/hqdefault.jpg' } }),
       el('span', { class: 'video-play' }, el('i')));
     frame.addEventListener('click', () => {
       const player = el('iframe', {
@@ -110,6 +112,14 @@
     $$('[data-videos]').forEach((host) => {
       const cards = host.dataset.videos.split(',').map((key) => MP.data.videos[key.trim()]).filter(Boolean).map(videoCard);
       host.replaceChildren(...cards);
+      const showThumbnails = () => $$('img[data-src]', host).forEach((img) => {
+        img.src = img.dataset.src;
+        img.removeAttribute('data-src');
+      });
+      // Browsers fetch lazy images even inside a closed <details>, so wait for the drawer itself.
+      const drawer = host.closest('details');
+      if (!drawer || drawer.open) showThumbnails();
+      else drawer.addEventListener('toggle', () => { if (drawer.open) showThumbnails(); });
     });
   }
 
