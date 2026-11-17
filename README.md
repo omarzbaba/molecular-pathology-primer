@@ -99,6 +99,12 @@ Then open http://localhost:8124. (Opening `index.html` straight from disk also w
 
 Content lives in `js/data/` as plain data, separate from the code that renders it, so a question or a table row can be corrected without touching the engine.
 
+### Updating the content
+
+1. Edit the text — almost always a file in `js/data/`.
+2. In `index.html`, change the version stamp on the stylesheet and script links (find `?v=` and replace the value everywhere). Browsers keep these files for several minutes; a new stamp makes them fetch the new ones at once.
+3. Commit and push. GitHub Pages redeploys in about a minute.
+
 ---
 
 ## Libraries
