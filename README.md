@@ -47,7 +47,7 @@ All of them are built in code — no images, no pre-rendered video.
 
 | Lab | What it teaches |
 |---|---|
-| Live 3D double helix | Raise the temperature: A–T pairs open first, then the strands separate. The trick behind every test. |
+| Live 3D double helix | Raise the temperature: A–T pairs open first, then the strands separate. The trick behind nearly every test. |
 | Mutation lab | The real *BRAF* sequence around codon 600. Change a base and watch the protein change and the variant name write itself. |
 | Tumor cellularity estimator | Estimate tumor nuclei in a field, then see what that does to the expected allele fraction. |
 | PCR cycler | Denature, anneal, extend — and the copies double. |

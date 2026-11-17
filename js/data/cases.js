@@ -23,7 +23,7 @@
         { ask: 'What does this staining pattern tell you?',
           answer: 'MSH2 and MSH6 work as a pair. When <strong>MSH2</strong> fails, its partner MSH6 is degraded, so both disappear. The tumor is mismatch-repair deficient, and the gene to suspect is <i>MSH2</i>.' },
         { ask: 'Sporadic or inherited — what do you do next?',
-          answer: 'Loss of MSH2 and MSH6 is rarely sporadic. Unlike MLH1 loss, there is no methylation or <i>BRAF</i> step: refer for <strong>genetic counseling and germline testing</strong> for Lynch syndrome.' },
+          answer: 'Loss of MSH2 and MSH6 is not explained by promoter methylation, so — unlike MLH1 loss — there is no methylation or <i>BRAF</i> step: refer for <strong>genetic counseling and germline testing</strong> for Lynch syndrome.' },
         { ask: 'Who else does this result matter to?',
           answer: 'Her <strong>relatives</strong>: Lynch syndrome is autosomal dominant, so each first-degree relative has a 50% chance of carrying it and benefits from earlier colonoscopy. And her <strong>oncologist</strong>: mismatch-repair-deficient tumors respond to immune checkpoint inhibitors.' }
       ] },
@@ -70,7 +70,7 @@
         { ask: 'The <i>FMR1</i> result: more than 200 CGG repeats, methylated. Why would an exome have missed it?',
           answer: 'That is a <strong>full mutation</strong>: the expanded repeat is methylated and the gene is silenced. Short-read sequencing cannot size long repeats, so the test is PCR with fragment analysis, sometimes with Southern blotting.' },
         { ask: 'What does this mean for his mother?',
-          answer: 'She almost certainly carries a <strong>premutation</strong> (55–200 repeats) that expanded when it was passed on. Premutation carriers face their own risks — early ovarian insufficiency, and a tremor–ataxia syndrome later in life — and the family needs counseling.' }
+          answer: 'She is an obligate carrier of an expanded allele — a <strong>premutation</strong> (55–200 repeats) or a full mutation of her own — and should be tested. Premutation carriers face their own risks — early ovarian insufficiency, and a tremor–ataxia syndrome later in life — and the family needs counseling.' }
       ] },
 
     { id: 'c-pcr', slot: 'lab', tag: 'Infection', title: 'Still positive',

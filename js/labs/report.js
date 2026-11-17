@@ -58,7 +58,7 @@
       el('h5', null, 'Not detected ', hot(6)),
       el('p', { html: 'No <i>ALK</i>, <i>ROS1</i>, <i>RET</i> or <i>NTRK</i> fusion. No <i>KRAS</i> or <i>BRAF</i> mutation. No <i>MET</i> exon 14 skipping.' }),
       el('h5', null, 'Interpretation ', hot(7)),
-      el('p', { html: '<i>EGFR</i> p.Leu858Arg is a sensitizing mutation that predicts response to EGFR tyrosine-kinase inhibitors. The <i>ATM</i> variant is of uncertain significance; its allele fraction raises the possibility of germline origin, which this tumor-only test cannot determine.' }),
+      el('p', { html: '<i>EGFR</i> p.Leu858Arg is a sensitizing mutation that predicts response to EGFR tyrosine-kinase inhibitors. The <i>ATM</i> variant is of uncertain significance; its allele fraction raises the possibility of germline origin, which this tumor-only test cannot determine; as a variant of uncertain significance it does not by itself call for germline testing.' }),
       el('h5', null, 'Limitations ', hot(8)),
       el('p', { html: 'This assay does not detect variants outside the genes listed, large rearrangements not covered by the RNA panel, or variants below the limit of detection. It does not distinguish germline from somatic variants.' }));
 

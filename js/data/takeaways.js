@@ -58,7 +58,7 @@
 
   /** The ten things to keep, shown in the wrap-up. */
   MP.data.keep = [
-    "<strong>One trick underlies every test:</strong> complementary strands find each other.",
+    "<strong>One trick underlies nearly every test:</strong> complementary strands find each other.",
     "<strong>Name the alteration first</strong> — base change, small insertion or deletion, copy number, fusion, repeat, methylation — then choose a test that can see it.",
     "<strong>EDTA for PCR, heparin for karyotype;</strong> formalin yes, acid decalcification no.",
     "<strong>Tumor cellularity caps the signal:</strong> a heterozygous variant shows at about half the tumor fraction.",

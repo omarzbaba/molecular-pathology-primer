@@ -16,7 +16,7 @@
     { site: 'Lung', marker: 'PD-L1 (protein)', why: 'An immunostain, not a molecular test, ordered alongside: it guides immunotherapy.', test: 'Immunohistochemistry', level: 'next' },
 
     { site: 'Colorectal', marker: 'Mismatch-repair loss / MSI-high', why: 'Screens every tumor for Lynch syndrome and predicts response to immune checkpoint inhibitors.', test: 'Immunohistochemistry · PCR · NGS', level: 'core' },
-    { site: 'Colorectal', marker: 'KRAS and NRAS mutation', why: 'Predicts no benefit from anti-EGFR antibodies such as cetuximab.', test: 'NGS · PCR', level: 'core' },
+    { site: 'Colorectal', marker: 'KRAS and NRAS mutation', why: 'Predicts no benefit from anti-EGFR antibodies such as cetuximab.', test: 'NGS · PCR', level: 'next' },
     { site: 'Colorectal', marker: 'BRAF V600E', why: 'Poorer prognosis; with MLH1 loss it indicates a sporadic tumor; targetable in combination.', test: 'PCR · NGS', level: 'next' },
     { site: 'Colorectal', marker: 'HER2 amplification', why: 'Anti-HER2 combinations in RAS wild-type disease.', test: 'Immunohistochemistry · in situ hybridization · NGS', level: 'preview' },
 
@@ -54,7 +54,7 @@
     { site: 'Urologic', marker: 'BRCA2 and related repair genes', why: 'Metastatic prostate cancer: PARP inhibitors.', test: 'NGS, tumor and germline', level: 'preview' },
     { site: 'Urologic', marker: 'FGFR3 alteration', why: 'Urothelial carcinoma: an FGFR inhibitor.', test: 'NGS · PCR', level: 'preview' },
 
-    { site: 'Any site', marker: 'MSI-high / mismatch-repair deficient', why: 'Immune checkpoint inhibitors, whatever the tumor type.', test: 'Immunohistochemistry · PCR · NGS', level: 'next' },
+    { site: 'Any site', marker: 'MSI-high / mismatch-repair deficient', why: 'Immune checkpoint inhibitors, whatever the tumor type.', test: 'Immunohistochemistry · PCR · NGS', level: 'preview' },
     { site: 'Any site', marker: 'NTRK fusion', why: 'TRK inhibitors such as larotrectinib, whatever the tumor type.', test: 'RNA sequencing', level: 'preview' },
     { site: 'Any site', marker: 'High tumor mutational burden', why: 'Ten or more mutations per megabase can qualify a tumor for a checkpoint inhibitor.', test: 'NGS', level: 'preview' }
   ];

@@ -33,8 +33,8 @@
     { term: 'Liquid biopsy', def: 'Testing cell-free DNA from plasma for tumor-derived variants.' },
     { term: 'Loss of heterozygosity', abbr: 'LOH', def: 'Loss of the remaining normal copy of a gene in a tumor.' },
     { term: 'Microsatellite instability', abbr: 'MSI', def: 'Changing lengths of short DNA repeats — the footprint of defective mismatch repair.', core: true },
-    { term: 'Minimal residual disease', abbr: 'MRD', def: 'Small numbers of malignant cells that remain after treatment, measured by sensitive molecular or flow methods.' },
-    { term: 'Mismatch repair', abbr: 'MMR', def: 'The proof-reading system (MLH1, PMS2, MSH2, MSH6) that corrects copying errors in DNA.', core: true },
+    { term: 'Measurable (minimal) residual disease', abbr: 'MRD', def: 'Small numbers of malignant cells that remain after treatment, measured by sensitive molecular or flow methods.' },
+    { term: 'Mismatch repair', abbr: 'MMR', def: 'The repair system (MLH1, PMS2, MSH2, MSH6) that corrects copying errors the DNA polymerase leaves behind.', core: true },
     { term: 'Missense', def: 'A base change that swaps one amino acid for another.', core: true },
     { term: 'Mosaicism', def: 'A variant present in only some of a person’s cells.' },
     { term: 'Next-generation sequencing', abbr: 'NGS', def: 'Sequencing millions of DNA fragments in parallel.', core: true },
@@ -54,6 +54,6 @@
     { term: 'Tumor suppressor', def: 'A gene that restrains growth; cancer follows when both copies are lost.', core: true },
     { term: 'Variant allele fraction', abbr: 'VAF', def: 'Variant reads divided by all reads at a position.', core: true },
     { term: 'Variant of uncertain significance', abbr: 'VUS', def: 'A variant with too little evidence to call benign or pathogenic. Not a basis for action.', core: true },
-    { term: 'Viral load', def: 'The quantity of viral nucleic acid in a sample, usually reported in international units per millilitre.', core: true }
+    { term: 'Viral load', def: 'The quantity of viral nucleic acid in a sample, reported in international units or copies per millilitre.', core: true }
   ];
 })(window.MP);

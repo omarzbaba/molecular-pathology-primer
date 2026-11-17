@@ -52,7 +52,7 @@
       opts: ['Offer risk-reducing surgery on the strength of the result', 'Test her daughters for the variant to define their risk', 'Manage her by her personal and family history alone', 'Repeat the test at other laboratories until it is classified'],
       answer: 2,
       explain: 'A variant of uncertain significance has too little evidence either way. Her care follows her personal and family history, and the laboratory may reclassify the variant as evidence accumulates.',
-      wrong: 'Surgery and family testing treat an unknown as though it were pathogenic — most such variants are later downgraded to benign. Repeating the assay finds the same variant; it adds no evidence.',
+      wrong: 'Surgery and family testing treat an unknown as though it were pathogenic — when such variants are reclassified, about nine in ten are downgraded to benign. Repeating the assay finds the same variant; it adds no evidence.',
       pearl: 'Unknown means unknown. Treat the family history, not the uncertain variant.' },
 
     { id: 'cp7', obj: 7, cp: 's7', level: 'core',
@@ -275,7 +275,7 @@
       opts: ['Treatment failure on imatinib', 'A major molecular response', 'Progression to blast crisis', 'Uninterpretable without a karyotype'],
       answer: 1,
       explain: 'A level of 0.1% or below is a major molecular response — a three-log reduction from the standardised baseline.',
-      wrong: 'Failure and blast crisis are defined by rising or high levels with clinical change.',
+      wrong: 'Treatment failure means a level above the milestone for that time point — more than 1% at twelve months, for example. Blast crisis is defined by the blast count, not by the transcript level, and no karyotype is needed to read this result.',
       pearl: 'Each ten-fold fall is one log: 10%, 1%, 0.1%.' },
 
     { id: 'q704', obj: 7, level: 'next',
@@ -292,7 +292,7 @@
       opts: ['Nothing — it is only a routine blood test', 'Genetic counseling and informed consent', 'Testing his children before he is tested', 'A brain MRI to look for early changes'],
       answer: 1,
       explain: 'A predictive result cannot be undone and there is no preventive treatment. Counseling explores what the result would mean before the sample is drawn.',
-      wrong: 'Children are not tested for adult-onset conditions that cannot be acted on in childhood. Imaging does not answer the question.',
+      wrong: 'Children are generally not tested for adult-onset conditions that cannot be acted on in childhood. Imaging does not answer the question.',
       pearl: 'Predictive testing is a process, not a tube of blood.' },
 
     { id: 'q802', obj: 8, level: 'core',

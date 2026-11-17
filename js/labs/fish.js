@@ -17,7 +17,7 @@
       nText: 'Two red and two green, all separate.',
       aText: 'One red, one green and two fusions — one on each rearranged chromosome.' },
     { id: 'amp', label: 'Amplification', eg: 'ERBB2 (HER2)',
-      how: 'Red marks the gene; green marks the centromere of the same chromosome. Two or more reds per green means amplification.',
+      how: 'Red marks the gene; green marks the centromere of the same chromosome. A ratio of two or more reds per green, with an average of at least four reds per nucleus, means amplification.',
       normal: ['R', 'R', 'G', 'G'], abnormal: ['G', 'G'].concat(Array(16).fill('r')),
       nText: 'Two gene signals for two centromere signals.',
       aText: 'A crowd of red signals for two green: the gene is amplified.' },

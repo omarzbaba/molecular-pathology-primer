@@ -15,7 +15,7 @@ The objectives were mapped, top-down, from three sources rather than invented:
 
 | Source | What it contributed |
 |---|---|
-| **ABPath Molecular Genetic Pathology Content Specifications** — the framework ABPath publishes for molecular content on the AP/CP examination, with each item designated **C** (Core/Foundational), **AR** (Advanced Resident) or **F** (Fellow) | The spine. The guided session is built from the **C** items. **AR** items a student meets on service are flagged "Next level". **F** items appear only as "Preview" mentions in the supplementary material. |
+| **ABPath Molecular Genetic Pathology Content Specifications** — the framework ABPath publishes for molecular content on the AP/CP examination, with each item designated **C** (Core/Foundational), **AR** (Advanced Resident) or **F** (Fellow) | The spine. The guided session covers the **C** items (the central dogma, oncogenes and tumor suppressors, cytogenetics, PCR, colorectal mismatch repair and others) together with the **AR** fundamentals a rotating student meets every day on service — specimen handling, real-time PCR, sequencing, FISH, arrays and variant classification — taught at an introductory depth. Remaining **AR** items are flagged "Next level". **F** items appear only as "Preview" mentions in the supplementary material. |
 | **ABPath Clinical Pathology Content Specifications (April 2026)** | Where molecular testing sits inside hematology (cytogenetic testing, clonality, translocations/mutations), microbiology (targeted molecular assays, sequence-based identification, molecular resistance testing), chemistry (pharmacogenetics) and transfusion medicine. |
 | **CP-in-5 blueprint work** — the Molecular Pathology chapter map (37 episodes) with its distilled concept layer, plus the board-review molecular and cytogenetics episode maps | The high-yield facts that recur on boards and on service: pre-analytic traps (heparin, acid decalcification, formalin), probe designs, Ct logic, MMR/MSI, HER2 reflex testing, the classic translocations, repeat expansions, pharmacogenes. |
 
@@ -44,9 +44,13 @@ Orientation (5 min) and wrap-up with two cases and the take-home list (8 min) br
 
 ### Level flags used throughout
 
-- **Core** — ABPath "C". What a rotating student should own. The guided session is built from these.
-- **Next level** — ABPath "AR". Seen on service; worth recognising.
+The flags are teaching levels for this audience. They are guided by the ABPath designations rather than copied from them one to one: ABPath marks many everyday techniques (FISH, real-time PCR, sequencing, pre-analytic handling, variant classification) as "AR", and a rotating student still needs their basics.
+
+- **Core** — what a rotating student should own: the ABPath "C" items, plus the introductory level of those everyday "AR" fundamentals.
+- **Next level** — seen on service and worth recognising: most ABPath "AR" items.
 - **Preview** — ABPath "F". Named so it is not a surprise; supplementary only.
+
+In the biomarker atlas, where each row is a single ABPath item, the flag follows the ABPath designation of that item directly.
 
 ---
 

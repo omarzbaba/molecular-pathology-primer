@@ -18,13 +18,13 @@
     const key = PROTEINS.filter((p) => lost.has(p)).join('+');
     switch (key) {
       case '':
-        return ['ok', 'Mismatch repair intact', 'All four proteins are present, so the tumor is very likely microsatellite stable.', 'No further mismatch-repair testing. This does not exclude other inherited syndromes.'];
+        return ['ok', 'Mismatch repair intact', 'All four proteins are present, so the tumor is very likely microsatellite stable.', 'No further mismatch-repair testing is routinely needed. A strong personal or family history still deserves a genetics referral: a small share of Lynch tumors keep all four stains, and intact stains say nothing about other inherited syndromes.'];
       case 'MLH1+PMS2':
         return ['no', 'MLH1 and PMS2 lost — the commonest abnormal pattern', 'PMS2 needs its partner MLH1 to be stable, so when MLH1 fails both disappear. Most of these tumors are <strong>sporadic</strong>: the <i>MLH1</i> promoter has been silenced by methylation.', 'Test for <strong><i>MLH1</i> promoter methylation</strong> — in colorectal cancer a <strong><i>BRAF</i> V600E</strong> mutation points the same way. If neither is found, refer for germline testing for Lynch syndrome.'];
       case 'MSH2+MSH6':
-        return ['no', 'MSH2 and MSH6 lost', 'MSH6 needs its partner MSH2, so both are lost when MSH2 fails. This pattern is rarely sporadic.', 'Refer for <strong>genetic counseling and germline testing</strong> of <i>MSH2</i> (and <i>EPCAM</i>, whose deletion silences <i>MSH2</i>).'];
+        return ['no', 'MSH2 and MSH6 lost', 'MSH6 needs its partner MSH2, so both are lost when MSH2 fails. There is no methylation shortcut for this pattern, and Lynch syndrome is the leading explanation.', 'Refer for <strong>genetic counseling and germline testing</strong> of <i>MSH2</i> (and <i>EPCAM</i>, whose deletion silences <i>MSH2</i>).'];
       case 'PMS2':
-        return ['no', 'PMS2 lost alone', 'MLH1 is still present, so the fault lies in PMS2 itself.', 'Refer for <strong>genetic counseling and germline testing</strong> of <i>PMS2</i>.'];
+        return ['no', 'PMS2 lost alone', 'MLH1 is still present, so the fault usually lies in PMS2 itself.', 'Refer for <strong>genetic counseling and germline testing</strong> of <i>PMS2</i> — and of <i>MLH1</i>, which explains a minority of these tumors.'];
       case 'MSH6':
         return ['no', 'MSH6 lost alone', 'MSH2 is still present, so the fault lies in MSH6 itself.', 'Refer for <strong>genetic counseling and germline testing</strong> of <i>MSH6</i>.'];
       default:

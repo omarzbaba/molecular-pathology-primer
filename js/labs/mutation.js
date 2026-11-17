@@ -70,7 +70,8 @@
       const cdna = 'c.' + (a === b ? state.from : state.from + '_' + state.to) + 'del';
       if (inFrame) return { seq, cls: 'In-frame deletion', cdna, protein: 'p.(' + AA3[REF_AA[ci]] + n + 'del)', short: '', deletedCodon: ci, hitCodon: -1, stopCodon: -1 };
       const shifted = translate(seq);
-      return { seq, cls: 'Frameshift', cdna, protein: 'p.(' + AA3[REF_AA[ci]] + n + AA3[shifted[ci]] + 'fs)', short: '', shiftFrom: ci, hitCodon: -1, stopCodon: shifted.indexOf('*', ci) };
+      // Protein name in the short HGVS form: the first changed residue, then "fs".
+      return { seq, cls: 'Frameshift', cdna, protein: 'p.(' + AA3[REF_AA[ci]] + n + 'fs)', short: '', shiftFrom: ci, hitCodon: -1, stopCodon: shifted.indexOf('*', ci) };
     }
     return { seq: REF, cls: 'ref', cdna: '', protein: '', short: '', hitCodon: -1, stopCodon: -1 };
   }
